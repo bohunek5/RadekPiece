@@ -1,0 +1,8 @@
+# Scoped to /projekty3d/ only. The site's WordPress root is unchanged.
+DirectoryIndex index.html
+Options -Indexes
+
+RewriteEngine On
+# Original query strings are retained automatically (no replacement query or QSD).
+RewriteRule ^antila/(references|models)/(.*)$ https://bohunek5.github.io/RadekAntila/$1/$2 [R=302,L]
+RewriteRule ^piece/(references|models)/(.*)$ https://bohunek5.github.io/RadekPiece/$1/$2 [R=302,L]
