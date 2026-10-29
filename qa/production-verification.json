@@ -1,0 +1,490 @@
+{
+  "checkedAt": "2026-10-29T15:17:03.953Z",
+  "build": "dist",
+  "base": "http://127.0.0.1:4188/",
+  "scope": "Password gate, production assets, product navigation, source dialog and responsive layout; geometry and exports already verified separately.",
+  "checks": [
+    "Gate blocks studio and model imports before login; wrong password rejected.",
+    "Password 321 opens the production application.",
+    "All four model buttons load their model and update heading, selection and source dialog.",
+    "All source images, local PDFs (including pump dimensions/manual) and manufacturer product links return HTTP 200.",
+    "Pump photograph is explicitly captioned as the HPR 500 family image with hydrobox.",
+    "Reload retains access in the current session.",
+    "320 px and 390 px mobile layouts: fresh-session gate, model switching and source dialog; no horizontal overflow or clipped dialog.",
+    "No JavaScript, console, failed-network or HTTP errors."
+  ],
+  "assets": [
+    {
+      "url": "http://127.0.0.1:4188/references/pumps-hpr-deluxe.png",
+      "status": 200,
+      "contentType": "image/png",
+      "label": "Rodzina HPR Deluxe · HPR 500 i hydrobox"
+    },
+    {
+      "url": "https://www.kostrzewa.com.pl/produkty/hpr-deluxe-hb",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "label": "HPR 400 Deluxe — strona KOSTRZEWA"
+    },
+    {
+      "url": "http://127.0.0.1:4188/references/pumps-hpr-dimensions.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "label": "Dokumentacja producenta — PDF"
+    },
+    {
+      "url": "http://127.0.0.1:4188/references/pumps-hpr-manual.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "label": "Instrukcja obsługi — PDF"
+    },
+    {
+      "url": "http://127.0.0.1:4188/references/boilers-twin.png",
+      "status": 200,
+      "contentType": "image/png",
+      "label": "Fotografia producenta"
+    },
+    {
+      "url": "https://www.kostrzewa.com.pl/produkty/twin-bio-luxury-compact-ne",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "label": "Twin Bio Luxury Compact NE 16 — strona KOSTRZEWA"
+    },
+    {
+      "url": "http://127.0.0.1:4188/references/boilers-twin-dimensions.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "label": "Dokumentacja producenta — PDF"
+    },
+    {
+      "url": "http://127.0.0.1:4188/references/boilers-eei.png",
+      "status": 200,
+      "contentType": "image/png",
+      "label": "Fotografia producenta"
+    },
+    {
+      "url": "https://www.kostrzewa.com.pl/produkty/eei-pellets",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "label": "EEI Pellets 16 — strona KOSTRZEWA"
+    },
+    {
+      "url": "http://127.0.0.1:4188/references/boilers-eei-dimensions.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "label": "Dokumentacja producenta — PDF"
+    }
+  ],
+  "models": [
+    {
+      "id": "hpr-400-deluxe",
+      "title": "HPR 400",
+      "productName": "HPR 400 Deluxe",
+      "visible": true,
+      "canvasWidth": 1782
+    },
+    {
+      "id": "hpr-600-deluxe",
+      "title": "HPR 600",
+      "productName": "HPR 600 Deluxe",
+      "visible": true,
+      "canvasWidth": 1782
+    },
+    {
+      "id": "twin-bio-16",
+      "title": "Twin Bio Compact",
+      "productName": "Twin Bio Luxury Compact NE 16",
+      "visible": true,
+      "canvasWidth": 1782
+    },
+    {
+      "id": "eei-pellets-16",
+      "title": "EEI Pellets",
+      "productName": "EEI Pellets 16",
+      "visible": true,
+      "canvasWidth": 1782
+    }
+  ],
+  "viewports": [
+    {
+      "label": "desktop-gate",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536
+    },
+    {
+      "label": "desktop-hpr-400-deluxe",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536,
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1188,
+        "height": 766,
+        "top": 80,
+        "right": 1188,
+        "bottom": 846,
+        "left": 0
+      }
+    },
+    {
+      "label": "desktop-source-hpr-400-deluxe",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536,
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1188,
+        "height": 766,
+        "top": 80,
+        "right": 1188,
+        "bottom": 846,
+        "left": 0
+      },
+      "dialog": {
+        "x": 408,
+        "y": 162.40625,
+        "width": 720,
+        "height": 675.1875,
+        "top": 162.40625,
+        "right": 1128,
+        "bottom": 837.59375,
+        "left": 408
+      }
+    },
+    {
+      "label": "desktop-hpr-600-deluxe",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536,
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1188,
+        "height": 766,
+        "top": 80,
+        "right": 1188,
+        "bottom": 846,
+        "left": 0
+      }
+    },
+    {
+      "label": "desktop-source-hpr-600-deluxe",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536,
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1188,
+        "height": 766,
+        "top": 80,
+        "right": 1188,
+        "bottom": 846,
+        "left": 0
+      },
+      "dialog": {
+        "x": 408,
+        "y": 162.40625,
+        "width": 720,
+        "height": 675.1875,
+        "top": 162.40625,
+        "right": 1128,
+        "bottom": 837.59375,
+        "left": 408
+      }
+    },
+    {
+      "label": "desktop-twin-bio-16",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536,
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1188,
+        "height": 766,
+        "top": 80,
+        "right": 1188,
+        "bottom": 846,
+        "left": 0
+      }
+    },
+    {
+      "label": "desktop-source-twin-bio-16",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536,
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1188,
+        "height": 766,
+        "top": 80,
+        "right": 1188,
+        "bottom": 846,
+        "left": 0
+      },
+      "dialog": {
+        "x": 408,
+        "y": 185.90625,
+        "width": 720,
+        "height": 628.1875,
+        "top": 185.90625,
+        "right": 1128,
+        "bottom": 814.09375,
+        "left": 408
+      }
+    },
+    {
+      "label": "desktop-eei-pellets-16",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536,
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1188,
+        "height": 766,
+        "top": 80,
+        "right": 1188,
+        "bottom": 846,
+        "left": 0
+      }
+    },
+    {
+      "label": "desktop-source-eei-pellets-16",
+      "width": 1536,
+      "documentWidth": 1536,
+      "bodyWidth": 1536,
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1188,
+        "height": 766,
+        "top": 80,
+        "right": 1188,
+        "bottom": 846,
+        "left": 0
+      },
+      "dialog": {
+        "x": 408,
+        "y": 185.90625,
+        "width": 720,
+        "height": 628.1875,
+        "top": 185.90625,
+        "right": 1128,
+        "bottom": 814.09375,
+        "left": 408
+      }
+    },
+    {
+      "label": "mobile-320-gate",
+      "width": 320,
+      "documentWidth": 320,
+      "bodyWidth": 320
+    },
+    {
+      "label": "mobile-320-studio",
+      "width": 320,
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "viewport": {
+        "x": 0,
+        "y": 161,
+        "width": 320,
+        "height": 364.796875,
+        "top": 161,
+        "right": 320,
+        "bottom": 525.796875,
+        "left": 0
+      }
+    },
+    {
+      "label": "mobile-320-eei",
+      "width": 320,
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "viewport": {
+        "x": 0,
+        "y": -636,
+        "width": 320,
+        "height": 364.796875,
+        "top": -636,
+        "right": 320,
+        "bottom": -271.203125,
+        "left": 0
+      }
+    },
+    {
+      "label": "mobile-320-source",
+      "width": 320,
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "viewport": {
+        "x": 0,
+        "y": 161,
+        "width": 320,
+        "height": 364.796875,
+        "top": 161,
+        "right": 320,
+        "bottom": 525.796875,
+        "left": 0
+      },
+      "dialog": {
+        "x": 18,
+        "y": 20,
+        "width": 284,
+        "height": 804,
+        "top": 20,
+        "right": 302,
+        "bottom": 824,
+        "left": 18
+      }
+    },
+    {
+      "label": "mobile-390-gate",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390
+    },
+    {
+      "label": "mobile-390-studio",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "viewport": {
+        "x": 0,
+        "y": 161,
+        "width": 390,
+        "height": 364.796875,
+        "top": 161,
+        "right": 390,
+        "bottom": 525.796875,
+        "left": 0
+      }
+    },
+    {
+      "label": "mobile-390-eei",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "viewport": {
+        "x": 0,
+        "y": -606,
+        "width": 390,
+        "height": 364.796875,
+        "top": -606,
+        "right": 390,
+        "bottom": -241.203125,
+        "left": 0
+      }
+    },
+    {
+      "label": "mobile-390-source",
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "viewport": {
+        "x": 0,
+        "y": 161,
+        "width": 390,
+        "height": 364.796875,
+        "top": 161,
+        "right": 390,
+        "bottom": 525.796875,
+        "left": 0
+      },
+      "dialog": {
+        "x": 18,
+        "y": 20,
+        "width": 354,
+        "height": 804,
+        "top": 20,
+        "right": 372,
+        "bottom": 824,
+        "left": 18
+      }
+    }
+  ],
+  "errors": [],
+  "status": "passed",
+  "visualReview": {
+    "inspected": [
+      "desktop gate",
+      "EEI desktop",
+      "pump source dialog",
+      "mobile 320 full page",
+      "mobile 390 source dialog"
+    ],
+    "layout": "No clipping or overlapping controls observed.",
+    "minorObservation": "Resolved by compact viewport DPR 2 sampling: compared before/after screenshots at 320 px and 390 px; grille moire significantly reduced without geometry changes.",
+    "productThumbnails": [
+      {
+        "viewport": 320,
+        "decoded": [
+          {
+            "src": "http://127.0.0.1:4188/references/pumps-hpr-deluxe.png",
+            "complete": true,
+            "width": 2500
+          },
+          {
+            "src": "http://127.0.0.1:4188/references/pumps-hpr-deluxe.png",
+            "complete": true,
+            "width": 2500
+          },
+          {
+            "src": "http://127.0.0.1:4188/references/boilers-twin.png",
+            "complete": true,
+            "width": 2500
+          },
+          {
+            "src": "http://127.0.0.1:4188/references/boilers-eei.png",
+            "complete": true,
+            "width": 2500
+          }
+        ]
+      },
+      {
+        "viewport": 390,
+        "decoded": [
+          {
+            "src": "http://127.0.0.1:4188/references/pumps-hpr-deluxe.png",
+            "complete": true,
+            "width": 2500
+          },
+          {
+            "src": "http://127.0.0.1:4188/references/pumps-hpr-deluxe.png",
+            "complete": true,
+            "width": 2500
+          },
+          {
+            "src": "http://127.0.0.1:4188/references/boilers-twin.png",
+            "complete": true,
+            "width": 2500
+          },
+          {
+            "src": "http://127.0.0.1:4188/references/boilers-eei.png",
+            "complete": true,
+            "width": 2500
+          }
+        ]
+      }
+    ]
+  },
+  "renderSamplingReview": {
+    "change": "DPR 2 for viewport width <=600 px; existing desktop sampling retained.",
+    "buildAsset": "assets/main-B7QwT4tD.js",
+    "status": "passed",
+    "report": "qa/mobile-sampling-after.json",
+    "comparisons": [
+      "qa/mobile-sampling-before-320.png",
+      "qa/mobile-sampling-after-320.png",
+      "qa/mobile-sampling-before-390.png",
+      "qa/mobile-sampling-after-390.png"
+    ],
+    "pngExport": "3840x2160; renderer size, DPR and camera aspect restored."
+  }
+}

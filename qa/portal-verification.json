@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-29T15:19:38.584Z",
+  "checks": [
+    "Two project cards and exact GitHub repository links, local WebP previews loaded",
+    "Unknown login and wrong password stay on portal; keyboard project selection focuses password",
+    "Antila login normalizes input, sets matching session, clears Piece session, navigates relative target without credentials in URL",
+    "Piece preselection and login work; portal never auto-redirects with an existing session",
+    "Logout clears both project session keys",
+    "Responsive768/390/320px layouts do not overflow; selecting a card scrolls mobile login into view",
+    "No browser runtime errors or failed asset requests"
+  ],
+  "errors": [],
+  "limitations": [
+    "Relative target-route navigation tested via intercepted pages; root will integrate real studio subdirectories before deployment."
+  ]
+}

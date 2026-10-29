@@ -26,6 +26,8 @@ Wymagany Node.js 22. `npm ci`, następnie `npm run dev` — http://127.0.0.1:418
 
 `npm run build` tworzy statyczny katalog `dist/` z relatywnymi ścieżkami. Można go osadzić w dowolnym podkatalogu. GitHub Actions publikuje gałąź `main` na GitHub Pages.
 
+Źródła wspólnego panelu Radlight znajdują się w `portal/`. Pliki panelu trafiają do `/projekty3d/`, a gotowe buildy studiów do `/projekty3d/antila/` i `/projekty3d/piece/`. Login `antila` lub `piece` wybiera aplikację. Podfoldery działają w tym samym origin, więc po zalogowaniu w panelu aplikacja rozpoznaje sesję bez ponownego wpisywania hasła. `?logout=1` na adresie panelu czyści obie sesje. Panel nie przekierowuje automatycznie po samym otwarciu.
+
 ## Dostęp
 
 Ekran hasła jest bramką prezentacyjną w przeglądarce. Pliki na statycznym hostingu i w publicznym repozytorium pozostają publiczne. Stan dostępu zapisuje się w sessionStorage, bez przesyłania hasła w adresie URL. Wspólny panel Radlight wybiera właściwy projekt na podstawie loginu.

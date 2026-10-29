@@ -22,7 +22,9 @@ export class Studio{
   this.container=container;this.state=state;this.view='studio';this.dirty=true;this.disposed=false;
   const w=container.clientWidth,h=container.clientHeight;
   this.renderer=new T.WebGLRenderer({antialias:true,alpha:false,preserveDrawingBuffer:true,powerPreference:'high-performance'});
-  this.renderer.setPixelRatio(Math.min(Math.max(devicePixelRatio,innerWidth>800?1.5:1),1.75));this.renderer.setSize(w,h);
+  // Supersample compact viewports so the fine physical grilles remain legible.
+  const pixelRatio=innerWidth<=600?2:Math.min(Math.max(devicePixelRatio,innerWidth>800?1.5:1),1.75);
+  this.renderer.setPixelRatio(pixelRatio);this.renderer.setSize(w,h);
   this.renderer.outputColorSpace=T.SRGBColorSpace;this.renderer.toneMapping=T.ACESFilmicToneMapping;this.renderer.toneMappingExposure=1.08;
   this.renderer.shadowMap.enabled=true;this.renderer.shadowMap.type=T.PCFSoftShadowMap;this.renderer.shadowMap.autoUpdate=false;
   const canvas=this.renderer.domElement;canvas.tabIndex=0;canvas.setAttribute('role','img');canvas.setAttribute('aria-label','Model 3D urządzenia KOSTRZEWA. Przeciągnij, aby obrócić; przewijaj, aby przybliżyć. Strzałki obracają, plus i minus zmieniają przybliżenie.');container.append(canvas);

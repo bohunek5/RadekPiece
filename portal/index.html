@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#e9ebe7">
+  <meta name="robots" content="noindex,nofollow">
+  <title>RADLIGHT — Projekty 3D</title>
+  <meta name="description" content="Studia modeli 3D: Antila 33.3 oraz pompy ciepła i kotły KOSTRZEWA. Wybierz projekt i otwórz prezentację.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%233c574e'/%3E%3Cpath d='M18 13h16c10 0 16 5 16 13 0 6-3 10-9 12l11 13H40L29 38h-2v13h-9V13zm9 8v10h7c5 0 7-2 7-5s-2-5-7-5h-7z' fill='%23f3f5ef'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./portal.css">
+  <script type="module" src="./portal.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="RADLIGHT — projekty 3D"><span>RADLIGHT</span><small>PROJEKTY 3D</small></a>
+    <p class="top-note"><span class="status-dot"></span>Interaktywne studia modeli</p>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">KOLEKCJA / RADEK</p>
+      <h1 id="page-title">Z każdej <em>strony.</em></h1>
+      <p>Wybierz projekt. Otwórz studio. Przyjrzyj się detalom.</p>
+    </section>
+    <div class="portal-layout">
+      <section class="collection" aria-labelledby="collection-title">
+        <div class="collection-heading"><h2 id="collection-title">Dwa projekty do odkrycia</h2><span>01 — 02</span></div>
+        <div class="project-grid">
+          <article class="project-card" data-card="antila">
+            <button class="project-select" type="button" data-project="antila" aria-pressed="false" aria-label="Wybierz projekt Antila 33.3, login antila">
+              <span class="project-image"><img src="./assets/antila.webp" alt="Model 3D Antili 33.3: biały kadłub, drewniany pokład i osprzęt" width="900" height="640" decoding="async"><span class="image-tag">01 / JACHT</span><span class="selected-marker" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span></span>
+              <span class="project-text"><span class="project-kind">EXTERIOR STUDIO</span><strong>Antila <em>33.3</em></strong><span class="project-description">Jacht żaglowy. Pokład, takielunek i wykończenia.</span><span class="project-login">LOGIN <b>antila</b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span></span>
+            </button>
+            <a class="repository-link" href="https://github.com/bohunek5/RadekAntila" target="_blank" rel="noopener noreferrer">Repozytorium projektu <span>GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a>
+          </article>
+          <article class="project-card" data-card="piece">
+            <button class="project-select" type="button" data-project="piece" aria-pressed="false" aria-label="Wybierz projekt KOSTRZEWA, login piece">
+              <span class="project-image"><img src="./assets/piece.webp" alt="Model 3D kotła KOSTRZEWA EEI Pellets z podajnikiem i zasobnikiem" width="900" height="640" decoding="async"><span class="image-tag">02 / OGRZEWANIE</span><span class="selected-marker" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span></span>
+              <span class="project-text"><span class="project-kind">STUDIO MODELI 3D</span><strong class="kostrzewa-name">KOSTRZEWA</strong><span class="project-description">Dwie pompy ciepła. Dwa kotły pelletowe.</span><span class="project-login">LOGIN <b>piece</b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></span></span>
+            </button>
+            <a class="repository-link" href="https://github.com/bohunek5/RadekPiece" target="_blank" rel="noopener noreferrer">Repozytorium projektu <span>GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a>
+          </article>
+        </div>
+      </section>
+      <section class="access-panel" aria-labelledby="access-title">
+        <div class="access-panel-content">
+          <p class="eyebrow">WEJŚCIE DO STUDIA</p>
+          <h2 id="access-title">Twój projekt.<br><span>Gotowy do obejrzenia.</span></h2>
+          <p class="access-intro" id="selection-note">Wybierz kartę lub wpisz login projektu.</p>
+          <form id="project-login-form">
+            <div class="form-field"><label for="project-login">Login projektu</label><input id="project-login" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" required aria-describedby="login-hint access-message" placeholder="antila lub piece"><p id="login-hint">antila — jacht · piece — KOSTRZEWA</p></div>
+            <div class="form-field"><label for="project-password">Hasło dostępu</label><div class="password-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></svg><input id="project-password" name="password" type="password" autocomplete="current-password" required aria-describedby="access-message"></div></div>
+            <p class="access-message" id="access-message" role="status" aria-live="polite"></p>
+            <button class="access-submit" type="submit"><span>Otwórz projekt</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+          </form>
+          <p class="access-detail">OBRÓT 360° <span>·</span> MATERIAŁY <span>·</span> UJĘCIA 4K</p>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="page-footer"><span>RADLIGHT / Projekty 3D</span><span>Antila 33.3 <i>·</i> KOSTRZEWA</span><a href="./?logout=1">Wyczyść sesję</a></footer>
+  <noscript><p class="noscript">Włącz JavaScript, aby wybrać projekt i otworzyć jego studio.</p></noscript>
+</body>
+</html>

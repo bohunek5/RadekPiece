@@ -1,0 +1,54 @@
+{
+  "phase": "after",
+  "checkedAt": "2026-10-29T15:21:43.431Z",
+  "status": "passed",
+  "checks": [
+    {
+      "viewport": 320,
+      "rendering": {
+        "ratio": 2,
+        "width": 640,
+        "height": 730,
+        "cssWidth": 320,
+        "cssHeight": 365,
+        "docWidth": 320,
+        "windowWidth": 320
+      },
+      "modelSwitch": "passed"
+    },
+    {
+      "viewport": 390,
+      "rendering": {
+        "ratio": 2,
+        "width": 780,
+        "height": 730,
+        "cssWidth": 390,
+        "cssHeight": 365,
+        "docWidth": 390,
+        "windowWidth": 390
+      },
+      "modelSwitch": "passed"
+    },
+    {
+      "viewport": 1536,
+      "desktop": "passed",
+      "before": {
+        "ratio": 1.5,
+        "w": 1782,
+        "h": 1149,
+        "aspect": 1.5509138381201044
+      },
+      "exported": {
+        "width": 3840,
+        "height": 2160,
+        "bytes": 1729453,
+        "ratio": 1.5,
+        "w": 1782,
+        "h": 1149,
+        "aspect": 1.5509138381201044
+      },
+      "renderRestore": "passed"
+    }
+  ],
+  "errors": []
+}

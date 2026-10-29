@@ -1,0 +1,34 @@
+{
+  "phase": "before",
+  "checkedAt": "2026-10-29T15:21:19.532Z",
+  "status": "passed",
+  "checks": [
+    {
+      "viewport": 320,
+      "rendering": {
+        "ratio": 1,
+        "width": 320,
+        "height": 365,
+        "cssWidth": 320,
+        "cssHeight": 365,
+        "docWidth": 320,
+        "windowWidth": 320
+      },
+      "modelSwitch": "passed"
+    },
+    {
+      "viewport": 390,
+      "rendering": {
+        "ratio": 1,
+        "width": 390,
+        "height": 365,
+        "cssWidth": 390,
+        "cssHeight": 365,
+        "docWidth": 390,
+        "windowWidth": 390
+      },
+      "modelSwitch": "passed"
+    }
+  ],
+  "errors": []
+}
