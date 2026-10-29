@@ -1,0 +1,40 @@
+{
+  "product": "https://www.kostrzewa.com.pl/produkty/hpr-deluxe-hb",
+  "drawing": "https://www.kostrzewa.com.pl/downloads/efab0a4a8c/hpr_deluxe_hb_gabaryty_pompa_ciepla_hpr_400_deluxe_hpr_500_deluxe_hpr_600_deluxe.pdf",
+  "manual": "https://www.kostrzewa.com.pl/downloads/c56a7162ee/hpr_deluxe_hb_instrukcja_obslugi_hpr_deluxe.pdf",
+  "official_image": "https://www.kostrzewa.com.pl/content/pl/products/hpr-deluxe-hb/hpr-500-deluxe-hb-1.png",
+  "selected_models": [
+    "HPR 400 Deluxe",
+    "HPR 600 Deluxe"
+  ],
+  "dimensions_mm": {
+    "width": 977,
+    "height": 1718,
+    "depth": 977
+  },
+  "manual_height_mm": 1720,
+  "height_resolution": "Use detailed dimensional drawing1718mm; manual rounds1720mm.",
+  "power_A7_W35_kW": {
+    "HPR400": 10.87,
+    "HPR600": 15.76
+  },
+  "visible_structure": [
+    "shared external casing across400/500/600",
+    "slotted ventilation bands on all4faces",
+    "solid topcover",
+    "4adjustablefeet",
+    "concealed horizontal fan",
+    "closed rear utility passthrough"
+  ],
+  "uncertainties": [
+    "slot count and corner bendradii approximated fromphotos",
+    "smallfastener distances and internal silhouettes approximated",
+    "wordmark reconstructedtypography"
+  ],
+  "public_reference_caption": "Official HPR500 family photo. Same external casing documented for HPR400 and HPR600. Hydrobox pictured in reference is outside this exterior model.",
+  "local_source_sha256": {
+    "dimensions.pdf": "73c71b0c346d29a202d89aa54596aadb6de48f75a93b3fdad6e6a36ddcc49f64",
+    "manual.pdf": "3ef4a0ee54e2bc90ef508a0c4086ff934a6ab88e6ea84adb8e449ff12e4c16db",
+    "photo-1.png": "baf11ef84338987e7060bc8edfc8d23fc66915ff7e25dc5e88169cc72ceb7251"
+  }
+}

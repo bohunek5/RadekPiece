@@ -1,0 +1,86 @@
+{
+  "utc": "2026-10-29T15:05:54.015Z",
+  "checks": [
+    "Four desktop product selections and source-dialog screenshots recorded without horizontal overflow",
+    "All products selectable at360px, fullpage screenshots saved without horizontal overflow",
+    "320px layout and source dialog do not overflow horizontally",
+    "Keyboard arrow rotates the focusable model",
+    "No browser runtime errors or failed HTTP requests"
+  ],
+  "frames": [
+    {
+      "id": "hpr-400-deluxe",
+      "title": {
+        "x": 36,
+        "y": 134,
+        "width": 169.1875,
+        "height": 49.265625
+      },
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1092,
+        "height": 666
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "id": "hpr-600-deluxe",
+      "title": {
+        "x": 36,
+        "y": 134,
+        "width": 169.234375,
+        "height": 49.265625
+      },
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1092,
+        "height": 666
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "id": "twin-bio-16",
+      "title": {
+        "x": 36,
+        "y": 134,
+        "width": 326.6875,
+        "height": 49.265625
+      },
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1092,
+        "height": 666
+      },
+      "horizontalOverflow": false
+    },
+    {
+      "id": "eei-pellets-16",
+      "title": {
+        "x": 36,
+        "y": 134,
+        "width": 192.234375,
+        "height": 49.265625
+      },
+      "viewport": {
+        "x": 0,
+        "y": 80,
+        "width": 1092,
+        "height": 666
+      },
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": [],
+  "followup": {
+    "utc": "2026-10-29T15:09:46.847Z",
+    "checks": [
+      "Mobile viewport starts below title; captured390/360/320px for Twin,EEI,HPR",
+      "No horizontal overflow after mobile adjustment",
+      "Pump reference caption and alt explicitly identify HPR500 + hydrobox as family reference"
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "utc": "2026-10-29T15:05:09.364Z",
+  "checks": [
+    "Password gate rejects wrong entry and loads studio with correct entry",
+    "Four distinct product selections and source references work",
+    "Geometry finite, outer dimensions match chosen drawings within 15mm",
+    "Five camera views for each product",
+    "Four GLBs exported and re-imported with dimensions and embedded materials",
+    "Four PNG exports at 3840x2160",
+    "Finish, sheen and dimension controls update actual scene",
+    "Password session and product settings survive reload",
+    "Pointer orbit works",
+    "Four products selectable on mobile390px with no horizontal overflow",
+    "No JavaScript errors or failed HTTP requests"
+  ],
+  "models": [
+    {
+      "metrics": {
+        "product": "hpr-400-deluxe",
+        "objects": 83,
+        "vertices": 606539,
+        "triangles": 204442,
+        "invalid": 0,
+        "min": [
+          -0.4884999990463257,
+          1.1175870645585562e-10,
+          -0.4884999990463257
+        ],
+        "max": [
+          0.4884999990463257,
+          1.718000054359436,
+          0.4884999990463257
+        ],
+        "size": [
+          0.9769999980926514,
+          1.7180000542476774,
+          0.9769999980926514
+        ],
+        "catalogue": [
+          0.977,
+          1.718,
+          0.977
+        ]
+      },
+      "product": {
+        "id": "hpr-400-deluxe",
+        "name": "HPR 400 Deluxe",
+        "shortName": "HPR 400",
+        "category": "pump",
+        "categoryLabel": "Pompa ciepła",
+        "powerLabel": "10,87 kW · A7/W35",
+        "width": 0.977,
+        "height": 1.718,
+        "depth": 0.977,
+        "sourceUrl": "https://www.kostrzewa.com.pl/produkty/hpr-deluxe-hb",
+        "pdfUrl": "https://www.kostrzewa.com.pl/downloads/efab0a4a8c/hpr_deluxe_hb_gabaryty_pompa_ciepla_hpr_400_deluxe_hpr_500_deluxe_hpr_600_deluxe.pdf",
+        "manualUrl": "https://www.kostrzewa.com.pl/downloads/c56a7162ee/hpr_deluxe_hb_instrukcja_obslugi_hpr_deluxe.pdf",
+        "imageUrl": "references/pumps-hpr-deluxe.png",
+        "description": "Powietrzna pompa ciepła R290. Jednostka zewnętrzna w obudowie INOX, z dwoma pasami pionowej perforacji.",
+        "dimensionNote": "977 × 977 × 1718 mm według rysunku gabarytowego producenta z 10.07.2025. Instrukcja 04.2026 zaokrągla wysokość do 1720 mm.",
+        "accuracyNote": "HPR 400 i HPR 600 mają wspólną obudowę. Gabaryty potwierdzone; drobne detale odtworzone z fotografii i rysunków. To rekonstrukcja wizualna jednostki zewnętrznej, bez hydroboxu."
+      },
+      "roundtrip": {
+        "meshes": 83,
+        "invalid": 0,
+        "size": [
+          0.9769999980926514,
+          1.7180000542476774,
+          0.9769999980926514
+        ],
+        "metadata": {
+          "name": "hpr-400-deluxe",
+          "units": "metres",
+          "product": "HPR 400 Deluxe",
+          "sourceUrl": "https://www.kostrzewa.com.pl/produkty/hpr-deluxe-hb",
+          "pdfUrl": "https://www.kostrzewa.com.pl/downloads/efab0a4a8c/hpr_deluxe_hb_gabaryty_pompa_ciepla_hpr_400_deluxe_hpr_500_deluxe_hpr_600_deluxe.pdf",
+          "manualUrl": "https://www.kostrzewa.com.pl/downloads/c56a7162ee/hpr_deluxe_hb_instrukcja_obslugi_hpr_deluxe.pdf",
+          "accuracyNote": "HPR 400 i HPR 600 mają wspólną obudowę. Gabaryty potwierdzone; drobne detale odtworzone z fotografii i rysunków. To rekonstrukcja wizualna jednostki zewnętrznej, bez hydroboxu.",
+          "dimensions": {
+            "width": 0.977,
+            "height": 1.718,
+            "depth": 0.977
+          },
+          "confirmedDetails": [
+            "977 × 977 mm footprint",
+            "1718 mm drawing height",
+            "Two slotted bands on all four faces",
+            "Removable solid top cover",
+            "Four levelling feet",
+            "Rear closed passthrough",
+            "HPR designation above manufacturer",
+            "Concealed downward fan"
+          ],
+          "approximatedDetails": [
+            "Slot count and corner bend radii interpreted from photographs",
+            "Small fastener spacing and internal silhouettes",
+            "Wordmark typography reconstructed"
+          ],
+          "fastenerCount": 12,
+          "finish": "factory",
+          "sheen": "satin",
+          "configuration": {
+            "product": "hpr-400-deluxe",
+            "finish": "factory",
+            "sheen": "satin",
+            "dimensions": false
+          },
+          "reference": "https://www.kostrzewa.com.pl/produkty/hpr-deluxe-hb",
+          "accuracy": "External reconstruction from manufacturer drawings and photographs; not factory CAD"
+        }
+      },
+      "glbBytes": 5142016
+    },
+    {
+      "metrics": {
+        "product": "hpr-600-deluxe",
+        "objects": 83,
+        "vertices": 606539,
+        "triangles": 204442,
+        "invalid": 0,
+        "min": [
+          -0.4884999990463257,
+          1.1175870645585562e-10,
+          -0.4884999990463257
+        ],
+        "max": [
+          0.4884999990463257,
+          1.718000054359436,
+          0.4884999990463257
+        ],
+        "size": [
+          0.9769999980926514,
+          1.7180000542476774,
+          0.9769999980926514
+        ],
+        "catalogue": [
+          0.977,
+          1.718,
+          0.977
+        ]
+      },
+      "product": {
+        "id": "hpr-600-deluxe",
+        "name": "HPR 600 Deluxe",
+        "shortName": "HPR 600",
+        "category": "pump",
+        "categoryLabel": "Pompa ciepła",
+        "powerLabel": "15,76 kW · A7/W35",
+        "width": 0.977,
+        "height": 1.718,
+        "depth": 0.977,
+        "sourceUrl": "https://www.kostrzewa.com.pl/produkty/hpr-deluxe-hb",
+        "pdfUrl": "https://www.kostrzewa.com.pl/downloads/efab0a4a8c/hpr_deluxe_hb_gabaryty_pompa_ciepla_hpr_400_deluxe_hpr_500_deluxe_hpr_600_deluxe.pdf",
+        "manualUrl": "https://www.kostrzewa.com.pl/downloads/c56a7162ee/hpr_deluxe_hb_instrukcja_obslugi_hpr_deluxe.pdf",
+        "imageUrl": "references/pumps-hpr-deluxe.png",
+        "description": "Mocniejszy wariant HPR Deluxe z czynnikiem R290. Ta sama obudowa INOX i geometria zewnętrzna jak HPR 400.",
+        "dimensionNote": "977 × 977 × 1718 mm według rysunku gabarytowego producenta z 10.07.2025. Instrukcja 04.2026 zaokrągla wysokość do 1720 mm.",
+        "accuracyNote": "Wspólne gabaryty HPR 400/500/600 potwierdza jeden rysunek producenta. Moc podana dla A7/W35 z instrukcji 04.2026, s. 15. Detale nie są fabrycznym modelem CAD."
+      },
+      "roundtrip": {
+        "meshes": 83,
+        "invalid": 0,
+        "size": [
+          0.9769999980926514,
+          1.7180000542476774,
+          0.9769999980926514
+        ],
+        "metadata": {
+          "name": "hpr-600-deluxe",
+          "units": "metres",
+          "product": "HPR 600 Deluxe",
+          "sourceUrl": "https://www.kostrzewa.com.pl/produkty/hpr-deluxe-hb",
+          "pdfUrl": "https://www.kostrzewa.com.pl/downloads/efab0a4a8c/hpr_deluxe_hb_gabaryty_pompa_ciepla_hpr_400_deluxe_hpr_500_deluxe_hpr_600_deluxe.pdf",
+          "manualUrl": "https://www.kostrzewa.com.pl/downloads/c56a7162ee/hpr_deluxe_hb_instrukcja_obslugi_hpr_deluxe.pdf",
+          "accuracyNote": "Wspólne gabaryty HPR 400/500/600 potwierdza jeden rysunek producenta. Moc podana dla A7/W35 z instrukcji 04.2026, s. 15. Detale nie są fabrycznym modelem CAD.",
+          "dimensions": {
+            "width": 0.977,
+            "height": 1.718,
+            "depth": 0.977
+          },
+          "confirmedDetails": [
+            "977 × 977 mm footprint",
+            "1718 mm drawing height",
+            "Two slotted bands on all four faces",
+            "Removable solid top cover",
+            "Four levelling feet",
+            "Rear closed passthrough",
+            "HPR designation above manufacturer",
+            "Concealed downward fan"
+          ],
+          "approximatedDetails": [
+            "Slot count and corner bend radii interpreted from photographs",
+            "Small fastener spacing and internal silhouettes",
+            "Wordmark typography reconstructed"
+          ],
+          "fastenerCount": 12,
+          "finish": "factory",
+          "sheen": "satin",
+          "configuration": {
+            "product": "hpr-600-deluxe",
+            "finish": "factory",
+            "sheen": "satin",
+            "dimensions": false
+          },
+          "reference": "https://www.kostrzewa.com.pl/produkty/hpr-deluxe-hb",
+          "accuracy": "External reconstruction from manufacturer drawings and photographs; not factory CAD"
+        }
+      },
+      "glbBytes": 5144076
+    },
+    {
+      "metrics": {
+        "product": "twin-bio-16",
+        "objects": 9,
+        "vertices": 99588,
+        "triangles": 33198,
+        "invalid": 0,
+        "min": [
+          -0.5750000000000001,
+          0,
+          -0.4154999999999999
+        ],
+        "max": [
+          0.575,
+          1.3820000000000001,
+          0.4155
+        ],
+        "size": [
+          1.15,
+          1.3820000000000001,
+          0.831
+        ],
+        "catalogue": [
+          1.15,
+          1.382,
+          0.831
+        ]
+      },
+      "product": {
+        "id": "twin-bio-16",
+        "name": "Twin Bio Luxury Compact NE 16",
+        "shortName": "Twin Bio Compact",
+        "category": "boiler",
+        "categoryLabel": "Kocioł na pellet",
+        "powerLabel": "16 kW",
+        "width": 1.15,
+        "height": 1.382,
+        "depth": 0.831,
+        "sourceUrl": "https://www.kostrzewa.com.pl/produkty/twin-bio-luxury-compact-ne",
+        "pdfUrl": "references/boilers-twin-dimensions.pdf",
+        "imageUrl": "references/boilers-twin.png",
+        "description": "Kompaktowa zabudowa z mobilnym, osłoniętym zasobnikiem pelletu i sterownikiem dotykowym.",
+        "dimensionNote": "1150 × 1382 × 831 mm — zamknięty zestaw według rysunku „Gabaryty 16 kW”.",
+        "accuracyNote": "Gabaryty z rysunku producenta; detale obudowy odtworzone ze zdjęcia. Model prezentacyjny, bez wnętrza i dokumentacji wykonawczej."
+      },
+      "roundtrip": {
+        "meshes": 9,
+        "invalid": 0,
+        "size": [
+          1.15,
+          1.3820000000000001,
+          0.831
+        ],
+        "metadata": {
+          "name": "KOSTRZEWA Twin Bio Luxury Compact NE 16",
+          "units": "metres",
+          "sourceUrl": "https://www.kostrzewa.com.pl/produkty/twin-bio-luxury-compact-ne",
+          "dimensionDrawing": "references/boilers-twin-dimensions.pdf",
+          "accuracy": "External reconstruction from manufacturer drawings and photographs; not factory CAD",
+          "designDimensions": {
+            "width": 1.15,
+            "height": 1.382,
+            "depth": 0.831
+          },
+          "meshEnvelope": {
+            "width": 1.15,
+            "height": 1.382,
+            "depth": 0.831
+          },
+          "product": "Twin Bio Luxury Compact NE 16",
+          "configuration": {
+            "product": "twin-bio-16",
+            "finish": "factory",
+            "sheen": "satin",
+            "dimensions": false
+          },
+          "reference": "https://www.kostrzewa.com.pl/produkty/twin-bio-luxury-compact-ne"
+        }
+      },
+      "glbBytes": 3273900
+    },
+    {
+      "metrics": {
+        "product": "eei-pellets-16",
+        "objects": 16,
+        "vertices": 156860,
+        "triangles": 52292,
+        "invalid": 0,
+        "min": [
+          -0.8315,
+          0,
+          -0.447
+        ],
+        "max": [
+          0.8315,
+          1.381,
+          0.447
+        ],
+        "size": [
+          1.663,
+          1.381,
+          0.894
+        ],
+        "catalogue": [
+          1.663,
+          1.381,
+          0.894
+        ]
+      },
+      "product": {
+        "id": "eei-pellets-16",
+        "name": "EEI Pellets 16",
+        "shortName": "EEI Pellets",
+        "category": "boiler",
+        "categoryLabel": "Kocioł na pellet",
+        "powerLabel": "15 kW nominalnie",
+        "width": 1.663,
+        "height": 1.381,
+        "depth": 0.894,
+        "sourceUrl": "https://www.kostrzewa.com.pl/produkty/eei-pellets",
+        "pdfUrl": "references/boilers-eei-dimensions.pdf",
+        "imageUrl": "references/boilers-eei.png",
+        "description": "Kocioł z palnikiem Platinum Bio VG, podajnikiem ślimakowym i oddzielnym zasobnikiem 290 l.",
+        "dimensionNote": "1663 × 1381 × 894 mm — kocioł, zewnętrzny palnik i zasobnik według rysunku „Gabaryty EEI Pellets 16”.",
+        "accuracyNote": "Wariant EEI Pellets 16 z konkretnego rysunku gabarytowego. Instrukcja podaje inne gabaryty rewizji; szczegóły w źródłach. Odtworzenie prezentacyjne."
+      },
+      "roundtrip": {
+        "meshes": 16,
+        "invalid": 0,
+        "size": [
+          1.663,
+          1.381,
+          0.894
+        ],
+        "metadata": {
+          "name": "KOSTRZEWA EEI Pellets 16",
+          "units": "metres",
+          "sourceUrl": "https://www.kostrzewa.com.pl/produkty/eei-pellets",
+          "dimensionDrawing": "references/boilers-eei-dimensions.pdf",
+          "accuracy": "External reconstruction from manufacturer drawings and photographs; not factory CAD",
+          "designDimensions": {
+            "width": 1.663,
+            "height": 1.381,
+            "depth": 0.894
+          },
+          "meshEnvelope": {
+            "width": 1.663,
+            "height": 1.381,
+            "depth": 0.894
+          },
+          "product": "EEI Pellets 16",
+          "configuration": {
+            "product": "eei-pellets-16",
+            "finish": "factory",
+            "sheen": "satin",
+            "dimensions": false
+          },
+          "reference": "https://www.kostrzewa.com.pl/produkty/eei-pellets"
+        }
+      },
+      "glbBytes": 5284008
+    }
+  ],
+  "errors": []
+}

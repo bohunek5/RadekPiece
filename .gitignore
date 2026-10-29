@@ -1,0 +1,15 @@
+node_modules/
+dist/
+output/
+/references/
+qa/*.png
+qa/*.log
+qa/*-capture.mjs
+qa/ui-capture*.mjs
+qa/capture.mjs
+.env
+.env.*
+*.log
+*.tmp
+__pycache__/
+WYNIK-PRAC.txt
